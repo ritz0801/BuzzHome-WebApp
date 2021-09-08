@@ -39,13 +39,13 @@ const Role = ({ houseReducer, role, updateRoleUser, getHouseData }) => {
 					className={`left ${role === ROLE_USER.RENTER ? "secondary" : ""}`}
 					onClick={selectRoleRenter}
 				>
-					I am {ROLE_USER.RENTER}
+					Tôi là {ROLE_USER.BROKER}
 				</CustomButton>
 				<CustomButton
 					className={`right ${role === ROLE_USER.BROKER ? "secondary" : ""}`}
 					onClick={selectRoleBroker}
 				>
-					I am {ROLE_USER.BROKER}
+					Tôi là {ROLE_USER.RENTER}
 				</CustomButton>
 			</div>
 		</section>

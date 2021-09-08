@@ -100,7 +100,7 @@ const HomeContentComponent = ({
 										className="homeContent__top"
 									>
 										<div className="homeContent__top--total">
-											Total: {numResults}
+											Tổng cộng: {numResults}
 										</div>
 										<div className="homeContent__top--btn">
 											<CreatePost
@@ -148,7 +148,7 @@ const HomeContentComponent = ({
 										className="homeContent__top"
 									>
 										<div className="homeContent__top--total">
-											Total: {numResults}
+											Tổng cộng: {numResults}
 										</div>
 										<div className="homeContent__top--btn">
 											<CreatePost
@@ -184,7 +184,7 @@ const HomeContentComponent = ({
 									className="homeContent__top"
 								>
 									<div className="homeContent__top--total">
-										Total: {numResults}
+										Tổng cộng: {numResults}
 									</div>
 									<div className="homeContent__top--btn">
 										<CreatePost

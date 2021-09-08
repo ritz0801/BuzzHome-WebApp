@@ -157,7 +157,7 @@ function ContentAdmin({ firebase, firestore }) {
 			render: (id) => (
 				<Space size="middle">
 					<Button type="text" danger onClick={() => handleDeletePost(id)}>
-						Delete
+						Xoá
 					</Button>
 				</Space>
 			),

@@ -216,7 +216,7 @@ function CreatePostForm({
 				</Col>
 
 				<Col span={7} offset={1}>
-					<div className="form__label post">loại</div>
+					<div className="form__label post">Loại</div>
 					<Form.Item
 						name="isForRenter"
 						rules={[

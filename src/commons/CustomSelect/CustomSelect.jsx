@@ -26,7 +26,7 @@ const CustomSelect = ({ data, name, onChange, reset = false }) => {
 			className="custom-select"
 			showSearch
 			style={{ width: 200 }}
-			placeholder="Select a person"
+			placeholder="Chọn quận"
 			optionFilterProp="children"
 			onChange={handleChange}
 			defaultValue={reset ? data[0] : null}

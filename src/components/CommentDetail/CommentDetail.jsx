@@ -52,7 +52,7 @@ const CommentDetail = ({ data, user, firestore, firebase }) => {
 
 	return (
 		<div className="comment-detail">
-			<div className="title">Comments and replies</div>
+			<div className="title">Bình luận</div>
 			{(values || []).map((item) => (
 				<div key={item.id} className="comment-item">
 					<CustomComment

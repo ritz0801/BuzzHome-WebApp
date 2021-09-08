@@ -163,7 +163,7 @@ const FilterComponent = ({ getHouseData, role }) => {
 		>
 			<div className="btn-group top">
 				<Button type="primary" danger onClick={onResetFilter}>
-					Reset Filter
+					Khôi phục
 				</Button>
 			</div>
 
@@ -173,7 +173,7 @@ const FilterComponent = ({ getHouseData, role }) => {
 				>
 					<div className="filter-option">
 						<div className="filter-item filter-price">
-							<div className="title">Price</div>
+							<div className="title">Giá</div>
 							<div className="price-range">
 								{/* <CustomInput type="number" placeholder="from" name="priceFrom" onChange={onChangeValue}/>
                         <CustomInput type="number" placeholder="to" name="priceTo" onChange={onChangeValue}/> */}
@@ -192,7 +192,7 @@ const FilterComponent = ({ getHouseData, role }) => {
 						</div>
 						<div className="filter-select-group">
 							<div className="filter-item">
-								<div className="title">Location</div>
+								<div className="title">Quận</div>
 								<CustomSelect
 									data={DISTRICT_LOCTION_OPTION}
 									name="district"
@@ -210,7 +210,7 @@ const FilterComponent = ({ getHouseData, role }) => {
 				</div> */}
 				<div className="btn-filter">
 					<ButtonFilter onClick={onFilter} type="primary" size="large">
-						Filter
+						Tìm kiếm
 					</ButtonFilter>
 				</div>
 			</div>

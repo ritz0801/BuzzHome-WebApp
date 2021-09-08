@@ -164,7 +164,7 @@ function Information({ firebase, user, storage }) {
 								className="inputfile"
 								onChange={onChangeImage}
 							/>
-							<label for="file">Choose a file</label>
+							<label for="file">Chọn ảnh</label>
 						</>
 					) : (
 						<>

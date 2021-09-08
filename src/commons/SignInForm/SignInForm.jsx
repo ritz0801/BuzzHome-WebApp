@@ -125,7 +125,7 @@ function FormSignIn({ auth, firebase }) {
 					<input className="form__input" />
 				</Form.Item>
 
-				<div className="form__label">Password</div>
+				<div className="form__label">Mật khẩu</div>
 				<Form.Item
 					name="password"
 					rules={[

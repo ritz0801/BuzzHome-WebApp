@@ -95,7 +95,7 @@ const InfoDetail = (props) => {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							Link To Post
+							Liên kết bài viết
 						</a>
 					</div>
 				</div>
