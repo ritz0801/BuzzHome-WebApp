@@ -171,20 +171,21 @@ function ContentAdmin({ firebase, firestore }) {
 
 	const handleOk = async () => {
 		const result = await delelePost(deleteTicket);
-
+	
 		if (result === "OK") {
-			const temp = allPost.filter((item) => item.id !== deleteTicket);
-			setAllPost(temp);
-			setIsModalVisible(false);
-			return notification.success({
-				message: "Xóa thàng công",
-			});
+		  const temp = allPost.filter((item) => item.id !== deleteTicket);
+		  setAllPost(temp);
+		  setDataSource(temp);
+		  setIsModalVisible(false);
+		  return notification.success({
+			message: "Xóa thàng công",
+		  });
 		} else {
-			return notification.error({
-				message: "Xóa thất bại",
-			});
+		  return notification.error({
+			message: "Xóa thất bại",
+		  });
 		}
-	};
+	  };
 
 	const handleCancel = () => {
 		setIsModalVisible(false);
